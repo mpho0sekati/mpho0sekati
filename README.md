@@ -1,29 +1,35 @@
-# 🌱 Mpho Sekati — Farmer · Agri-tech Builder · South Africa
+<div align="center">
 
-> *"I'm not a software programmer — just a regular farmer who got curious about code."*
+# 🥬 Abuti Spinach
+## *Revolutionizing Township Agriculture through Tech*
 
-I work in **agriculture** and build tools to make farming smarter. My projects focus on practical problems: planting calendars, crop tracking, and AI-powered farming advice. Currently learning **cloud computing** to take these tools further. Looking to collaborate with anyone building software for the farming world.
-
----
-
-## 🌾 Projects
-
-| Project | Description |
-|---|---|
-| 🧑‍🌾 [Farmer-Agent](https://github.com/mpho0sekati/Farmer-Agent) | AI farming assistant using Crew.ai — personalized advice, planting calendars & seasonal itineraries |
-| 🥬 [abuti_spinach](https://github.com/mpho0sekati/abuti_spinach-) | Spinach crop tracking and management tool |
-| 📓 [farmerlog](https://github.com/mpho0sekati/farmerlog) | Digital farm journal — log activities, observations, and harvests |
-| 🌐 [facefarm](https://github.com/mpho0sekati/facefarm) | Community-facing farming platform experiment |
+[![Portfolio](https://img.shields.io/badge/Website-Visit%20Abuti%20Spinach-green?style=for-the-badge&logo=appveyor)](https://yourwebsite.com)
+[![YouTube](https://img.shields.io/badge/YouTube-Watch%20The%20Journey-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@AbutiSpinach)
+[![Twitter](https://img.shields.io/badge/Twitter-Follow%20Me-blue?style=for-the-badge&logo=twitter)](https://twitter.com/yourhandle)
 
 ---
 
-## 🛠️ Tools & Stack
+### "Growing the future, one byte at a time."
 
-`Python` · `Crew.ai` · `Cloud Computing` · `AI Agents` · `Agri-tech`
+</div>
+
+### 🚀 About Me
+I am **Mpho Sekati**, a developer and agricultural innovator dedicated to bridging the gap between traditional farming and modern technology. My work focuses on building sustainable, scalable solutions for township agriculture.
+
+### 🛠 Tech Stack
+<p align="left">
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+  <img src="https://img.shields.io/badge/csharp-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/IoT-Agriculture-blueviolet?style=for-the-badge&logo=raspberrypi" alt="IoT" />
+</p>
+
+### 🛠 Featured Projects
+* **[heat-shell](https://github.com/mpho0sekati/heat-shell)**: A C# utility developed for solar-powered energy management. This is the engine behind my off-grid farming infrastructure.
+* **[Other Project Name]**: *[Brief description of what this does for farming]*
 
 ---
 
-## 📫 Get in touch
-
-- ✉️ sekatimpho@outlook.com
-- 💼 [linkedin.com/in/mphosekati](https://www.linkedin.com/in/mphosekati/)
+<div align="center">
+  <h3>📈 My Coding Activity</h3>
+  <img src="https://github-readme-stats.vercel.app/api?username=mpho0sekati&show_icons=true&theme=radical&hide_border=true" />
+</div>
