@@ -5,7 +5,7 @@
     <img src="https://img.shields.io/badge/AGRI--TECH_SPECIALIST-%E2%9A%A1_ENGINEERING_THE_FUTURE_OF_FARMING-yellowgreen?style=for-the-badge" alt="Header Badge 2" />
   </p>
 
-  <img src="http://googleusercontent.com/image_collection/image_retrieval/311745058657982021" alt="Mpho Sekati in the Field" width="400" style="border-radius: 20px; box-shadow: 0px 10px 30px rgba(0,0,0,0.5);" />
+  <img src="[http://googleusercontent.com/image_collection/image_retrieval/311745058657982021](https://photos.app.goo.gl/mJCrYtMAMwNwmzjq5)" alt="Mpho Sekati in the Field" width="400" style="border-radius: 20px; box-shadow: 0px 10px 30px rgba(0,0,0,0.5);" />
 
   <h3>Connect & Collaborate:</h3>
   <p align="center">
