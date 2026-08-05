@@ -1,0 +1,63 @@
+<!-- assets/glass-header.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="Mpho Sekati">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#071018"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#2ea44f"/>
+      <stop offset="1" stop-color="#56d68a"/>
+    </linearGradient>
+
+    <!-- soft frosted blur for the glass panel -->
+    <filter id="frost" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+
+    <mask id="rounded">
+      <rect x="40" y="24" rx="20" ry="20" width="1120" height="192" fill="white"/>
+    </mask>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="240" fill="url(#bgGrad)"/>
+
+  <!-- subtle decorative shapes -->
+  <g opacity="0.09" transform="translate(-80,-30)">
+    <circle cx="200" cy="100" r="160" fill="#2ea44f"/>
+    <circle cx="1060" cy="140" r="120" fill="#56d68a"/>
+  </g>
+
+  <!-- glass panel -->
+  <g filter="url(#shadow)">
+    <rect x="40" y="24" rx="20" ry="20" width="1120" height="192" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)" stroke-width="1.5" mask="url(#rounded)"/>
+  </g>
+
+  <!-- inner frosted layer (slightly blurred) -->
+  <g filter="url(#frost)">
+    <rect x="56" y="40" rx="16" ry="16" width="1088" height="160" fill="rgba(255,255,255,0.02)"/>
+  </g>
+
+  <!-- accent stripe -->
+  <rect x="56" y="40" rx="16" ry="16" width="8" height="160" fill="url(#accent)" opacity="0.95"/>
+
+  <!-- text -->
+  <g fill="#ffffff" font-family="Inter, Roboto, sans-serif" text-rendering="geometricPrecision">
+    <text x="84" y="95" font-size="34" font-weight="700" fill="#ffffff">Mpho Sekati</text>
+    <text x="84" y="128" font-size="18" fill="#cbd5e1">Founder | AgriTech · Systems · Execution</text>
+
+    <!-- small descriptor/CTA -->
+    <text x="84" y="160" font-size="14" fill="#98a6b3">Building technology for small-scale farmers across Africa • Abuti Spinach</text>
+  </g>
+
+  <!-- subtle glass shine -->
+  <path d="M150 40 C 300 0, 600 0, 900 30" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+
+</svg>
