@@ -1,73 +1,69 @@
-<!-- HEADER -->
+<!-- Glassmorphism profile README for Mpho Sekati -->
+
+<!-- Header image (glass-style). Commit assets/glass-header.svg next to this README. -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:2ea44f&height=160&section=header&text=Mpho%20Sekati&fontSize=45&fontColor=ffffff&fontAlignY=40&desc=Founder%20%7C%20Builder%20%7C%20AgriTech%20Engineer&descSize=16&descAlignY=60"/>
+  <img src="./assets/glass-header.svg" alt="Mpho Sekati" width="100%" style="max-width:900px;">
 </p>
 
 ---
 
-## 👋 About Me
+## 👋 Hi — I'm Mpho Sekati
+Builder focused on solving real-world problems in African agriculture through practical technology, systems thinking, and execution.
 
-<p>
-I am <b>Mpho Sekati</b>, a builder focused on solving real-world problems in African agriculture through practical technology, systems thinking, and execution.
-</p>
-
-<p>
-My work sits at the intersection of agriculture, software systems, and impact-driven entrepreneurship.
-</p>
+I work at the intersection of agriculture, software systems, and impact-driven entrepreneurship.
 
 ---
 
 ## 🌍 Current Focus
-
-<ul>
-  <li>Building technology for small-scale farmers in Africa</li>
-  <li>Designing simple, scalable agricultural support systems</li>
-  <li>Developing Abuti Spinach as a real-world AgriTech platform</li>
-  <li>Exploring cloud systems and data-driven agriculture tools</li>
-</ul>
+- Building technology for small-scale farmers in Africa
+- Designing simple, scalable agricultural support systems
+- Developing Abuti Spinach as a real-world AgriTech platform
+- Exploring cloud systems and data-driven agriculture tools
 
 ---
 
 ## 🚀 Project: Abuti Spinach
-
-<p>
-<b>Abuti Spinach</b> is an AgriTech initiative designed to support small-scale farmers with practical, accessible tools for improving productivity and decision-making.
-</p>
-
-<ul>
-  <li>Early-stage real-world deployment</li>
-  <li>Focused on smallholder farmers</li>
-  <li>Subscription-based model (pilot phase)</li>
-</ul>
+**Abuti Spinach** is an AgriTech initiative supporting small-scale farmers with practical, accessible tools to improve productivity and decision-making.
+- Early-stage real-world deployment
+- Focused on smallholder farmers
+- Subscription-based model (pilot phase)
 
 ---
 
 ## 📊 GitHub Activity
-
 <p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=mphosekati&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=2ea44f"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=mphosekati&theme=dark&hide_border=true&background=0d1117&ring=2ea44f"/>
-
+  <img src="https://github-readme-stats.vercel.app/api?username=mpho0sekati&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=2ea44f" alt="GitHub stats" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mpho0sekati&theme=dark&hide_border=true&background=0d1117&ring=2ea44f" alt="Streak stats" />
 </p>
 
----
-
-## 📈 Contribution Activity
-
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mphosekati&bg_color=0d1117&color=2ea44f&line=2ea44f&point=ffffff&hide_border=true"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mpho0sekati&bg_color=0d1117&color=2ea44f&line=2ea44f&point=ffffff&hide_border=true" alt="Activity Graph" />
 </p>
 
 ---
 
 ## 🧠 Skills & Focus Areas
+System design, Cloud computing, Product development, AgriTech systems, Entrepreneurship, Execution.
 
 ```text
-System Design          ████████████
-Cloud Computing        ███████████░
-Product Development    ███████████░
-AgriTech Systems       ████████████
-Entrepreneurship       ████████████
-Execution              ████████████
+System Design          ████████████ 95%
+Cloud Computing        ███████████░ 90%
+Product Development    ███████████░ 90%
+AgriTech Systems       ████████████ 95%
+Entrepreneurship       ████████████ 95%
+Execution              ████████████ 95%
+```
+
+---
+
+## 📫 Connect
+- Twitter / X: @mpho0sekati
+- LinkedIn: (add your LinkedIn link)
+- Website: (add your site)
+
+---
+
+Made with a glassy header for a modern, focused profile. If you'd like:
+- I can commit README.md and assets/glass-header.svg directly to your repo (specify branch or default).
+- Or I can add alternate color themes (light/dark), replace the header with an inline SVG data URI, or include more badges/social icons.
