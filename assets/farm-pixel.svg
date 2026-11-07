@@ -1,12 +1,9 @@
-<!-- Original pixel-art farming scene; the cow strolls across the field. -->
+<!-- Original pixel-art farm scene; the cow leaps over the moon. -->
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
   <title id="title">Mpho Sekati — farming meets code</title>
-  <desc id="desc">A small pixel-art farm at dusk with crops, a barn, and an animated cow walking across the field.</desc>
+  <desc id="desc">A pixel-art farm at dusk, where a playful cow jumps over a crescent moon above the crops.</desc>
   <defs>
-    <linearGradient id="sky" x2="0" y2="1">
-      <stop stop-color="#12243a"/>
-      <stop offset="1" stop-color="#31566a"/>
-    </linearGradient>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#12243a"/><stop offset="1" stop-color="#31566a"/></linearGradient>
   </defs>
   <rect width="1200" height="320" fill="url(#sky)"/>
   <rect y="190" width="1200" height="130" fill="#234b36"/>
@@ -16,12 +13,13 @@
   <rect x="205" y="86" width="6" height="6" fill="#f5d77a"/>
   <rect x="493" y="48" width="7" height="7" fill="#f5d77a"/>
   <rect x="1090" y="66" width="6" height="6" fill="#f5d77a"/>
-  <path d="M1000 48h32v8h8v32h-8v8h-32v-8h-8V56h8z" fill="#f4df9b"/>
-  <path d="M1016 48h16v8h8v32h-8v8h-16V84h8V60h-8z" fill="#d5cb9a"/>
+  <!-- Pixel crescent moon -->
+  <path d="M808 42h24v8h16v16h8v24h-8v16h-16v8h-24v-8h-16v-16h-8V66h8V50h16z" fill="#f4df9b"/>
+  <path d="M832 50h12v16h8v24h-8v16h-16v8h-12V98h8V82h8z" fill="#31566a"/>
   <!-- Pixel clouds -->
   <g fill="#a8c0bb" opacity=".8">
     <path d="M290 72h32v-8h40v8h16v16h-88z"/>
-    <path d="M840 112h24v-8h40v8h16v16h-80z"/>
+    <path d="M930 132h24v-8h40v8h16v16h-80z"/>
   </g>
   <!-- Distant hills -->
   <path d="M0 184h120v-16h80v16h100v-24h80v24h120v-12h80v12h120v-20h80v20h120v-12h80v12h120v-24h100v24h120v36H0z" fill="#345a48"/>
@@ -44,12 +42,11 @@
     <rect x="288" y="264" width="10" height="5"/><rect x="314" y="255" width="10" height="5"/>
     <rect x="1093" y="256" width="10" height="5"/><rect x="1118" y="247" width="10" height="5"/>
   </g>
-  <!-- Pixel cow: gently bobs and walks across the field -->
+  <!-- Pixel cow: runs, springs over the moon, and lands back in the field -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="0 0; 145 0; 0 0" dur="12s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 20 0; 70 -75; 105 -180; 140 -180; 195 -75; 220 0; 0 0" keyTimes="0; 0.12; 0.28; 0.44; 0.58; 0.75; 0.88; 1" dur="5.5s" repeatCount="indefinite"/>
     <g transform="translate(690 187)">
-      <animateTransform attributeName="transform" type="translate" values="0 0; 0 2; 0 0" dur="0.55s" repeatCount="indefinite"/>
-      <!-- tail -->
+      <!-- tail flick -->
       <g transform="translate(5 29)">
         <animateTransform attributeName="transform" type="rotate" values="0 0 0; 18 0 0; 0 0 0; -12 0 0; 0 0 0" dur="1.5s" repeatCount="indefinite"/>
         <path d="M0 0h-7v18h-7v8h8v-8h7z" fill="#eee9d9"/>
@@ -65,11 +62,11 @@
       <rect x="88" y="24" width="14" height="12" fill="#e6a18c"/>
       <rect x="94" y="19" width="4" height="4" fill="#272a27"/>
       <rect x="97" y="30" width="3" height="3" fill="#784c46"/>
-      <!-- legs, alternating tiny pixel steps -->
+      <!-- kicking legs -->
       <g fill="#f3edda">
-        <rect x="17" y="54" width="11" height="17"><animate attributeName="y" values="54;58;54" dur="0.55s" repeatCount="indefinite"/></rect>
-        <rect x="37" y="54" width="11" height="17"><animate attributeName="y" values="58;54;58" dur="0.55s" repeatCount="indefinite"/></rect>
-        <rect x="63" y="54" width="11" height="17"><animate attributeName="y" values="54;58;54" dur="0.55s" repeatCount="indefinite"/></rect>
+        <rect x="17" y="54" width="11" height="17"><animate attributeName="y" values="54;58;48;54" keyTimes="0;0.3;0.6;1" dur="0.55s" repeatCount="indefinite"/></rect>
+        <rect x="37" y="54" width="11" height="17"><animate attributeName="y" values="58;54;48;58" keyTimes="0;0.3;0.6;1" dur="0.55s" repeatCount="indefinite"/></rect>
+        <rect x="63" y="54" width="11" height="17"><animate attributeName="y" values="54;58;48;54" keyTimes="0;0.3;0.6;1" dur="0.55s" repeatCount="indefinite"/></rect>
       </g>
       <g fill="#373534">
         <rect x="15" y="68" width="15" height="6"/><rect x="35" y="68" width="15" height="6"/><rect x="61" y="68" width="15" height="6"/>
