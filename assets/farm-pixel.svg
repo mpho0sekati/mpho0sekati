@@ -1,0 +1,88 @@
+<!-- Original pixel-art farming scene; the cow strolls across the field. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
+  <title id="title">Mpho Sekati — farming meets code</title>
+  <desc id="desc">A small pixel-art farm at dusk with crops, a barn, and an animated cow walking across the field.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#12243a"/>
+      <stop offset="1" stop-color="#31566a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" fill="url(#sky)"/>
+  <rect y="190" width="1200" height="130" fill="#234b36"/>
+  <rect y="220" width="1200" height="100" fill="#315d3b"/>
+  <path d="M0 204h120v-12h120v12h120v-20h120v20h120v-12h120v12h120v-18h120v18h120v-10h120v10h120v116H0z" fill="#416d43"/>
+  <rect x="90" y="52" width="8" height="8" fill="#f5d77a"/>
+  <rect x="205" y="86" width="6" height="6" fill="#f5d77a"/>
+  <rect x="493" y="48" width="7" height="7" fill="#f5d77a"/>
+  <rect x="1090" y="66" width="6" height="6" fill="#f5d77a"/>
+  <path d="M1000 48h32v8h8v32h-8v8h-32v-8h-8V56h8z" fill="#f4df9b"/>
+  <path d="M1016 48h16v8h8v32h-8v8h-16V84h8V60h-8z" fill="#d5cb9a"/>
+  <!-- Pixel clouds -->
+  <g fill="#a8c0bb" opacity=".8">
+    <path d="M290 72h32v-8h40v8h16v16h-88z"/>
+    <path d="M840 112h24v-8h40v8h16v16h-80z"/>
+  </g>
+  <!-- Distant hills -->
+  <path d="M0 184h120v-16h80v16h100v-24h80v24h120v-12h80v12h120v-20h80v20h120v-12h80v12h120v-24h100v24h120v36H0z" fill="#345a48"/>
+  <!-- Barn -->
+  <g>
+    <path d="M100 151h104v69H100z" fill="#a94f3d"/>
+    <path d="M88 151l64-45 64 45z" fill="#713d3a"/>
+    <path d="M145 174h30v46h-30z" fill="#f0c77b"/>
+    <path d="M151 180h18v40h-18z" fill="#674237"/>
+    <path d="M100 160h104v7H100z" fill="#c56b4a"/>
+  </g>
+  <!-- A few pixel crops -->
+  <g fill="#8ac66b">
+    <path d="M38 270h8v-20h8v20h8v-32h8v32h8v-16h8v16h8v12H38z"/>
+    <path d="M275 286h8v-25h8v25h8v-36h8v36h8v-18h8v18h8v12h-56z"/>
+    <path d="M1080 276h8v-23h8v23h8v-33h8v33h8v-18h8v18h8v12h-56z"/>
+  </g>
+  <g fill="#c0dc79">
+    <rect x="42" y="253" width="10" height="5"/><rect x="68" y="244" width="10" height="5"/>
+    <rect x="288" y="264" width="10" height="5"/><rect x="314" y="255" width="10" height="5"/>
+    <rect x="1093" y="256" width="10" height="5"/><rect x="1118" y="247" width="10" height="5"/>
+  </g>
+  <!-- Pixel cow: gently bobs and walks across the field -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 145 0; 0 0" dur="12s" repeatCount="indefinite"/>
+    <g transform="translate(690 187)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 2; 0 0" dur="0.55s" repeatCount="indefinite"/>
+      <!-- tail -->
+      <g transform="translate(5 29)">
+        <animateTransform attributeName="transform" type="rotate" values="0 0 0; 18 0 0; 0 0 0; -12 0 0; 0 0 0" dur="1.5s" repeatCount="indefinite"/>
+        <path d="M0 0h-7v18h-7v8h8v-8h7z" fill="#eee9d9"/>
+        <rect x="-14" y="23" width="8" height="7" fill="#342e2a"/>
+      </g>
+      <!-- body and patches -->
+      <rect x="10" y="17" width="67" height="39" fill="#f3edda"/>
+      <path d="M18 17h18v8h-8v12h-10zM51 40h18v16H51z" fill="#373534"/>
+      <!-- head and ears -->
+      <rect x="72" y="12" width="25" height="27" fill="#f3edda"/>
+      <rect x="69" y="7" width="10" height="8" fill="#d98c79"/>
+      <rect x="91" y="7" width="10" height="8" fill="#d98c79"/>
+      <rect x="88" y="24" width="14" height="12" fill="#e6a18c"/>
+      <rect x="94" y="19" width="4" height="4" fill="#272a27"/>
+      <rect x="97" y="30" width="3" height="3" fill="#784c46"/>
+      <!-- legs, alternating tiny pixel steps -->
+      <g fill="#f3edda">
+        <rect x="17" y="54" width="11" height="17"><animate attributeName="y" values="54;58;54" dur="0.55s" repeatCount="indefinite"/></rect>
+        <rect x="37" y="54" width="11" height="17"><animate attributeName="y" values="58;54;58" dur="0.55s" repeatCount="indefinite"/></rect>
+        <rect x="63" y="54" width="11" height="17"><animate attributeName="y" values="54;58;54" dur="0.55s" repeatCount="indefinite"/></rect>
+      </g>
+      <g fill="#373534">
+        <rect x="15" y="68" width="15" height="6"/><rect x="35" y="68" width="15" height="6"/><rect x="61" y="68" width="15" height="6"/>
+      </g>
+    </g>
+  </g>
+  <!-- Foreground furrows -->
+  <g fill="#1c422f" opacity=".7">
+    <rect x="0" y="304" width="1200" height="5"/><rect x="360" y="282" width="290" height="4"/><rect x="770" y="300" width="330" height="4"/>
+  </g>
+  <!-- Title panel -->
+  <rect x="64" y="35" width="575" height="91" fill="#10202de8" stroke="#9fce75" stroke-width="2"/>
+  <text x="88" y="74" fill="#f5edcf" font-family="monospace" font-size="29" font-weight="bold">FARMING MEETS CODE</text>
+  <text x="90" y="104" fill="#c4e0a0" font-family="monospace" font-size="16">Mpho Sekati • growing ideas, building tools</text>
+  <rect x="1050" y="290" width="8" height="8" fill="#e7cb7a"/>
+</svg>

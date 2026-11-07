@@ -1,48 +1,40 @@
-<!-- Profile README for Mpho Sekati -->
+<!-- Mpho Sekati — a farmer experimenting with code -->
 <p align="center">
-  <img src="./assets/glass-header.svg" alt="Mpho Sekati" width="100%" style="max-width:900px;">
+  <img src="./assets/farm-pixel.svg" alt="Animated pixel-art farm: a cow walks past the crops under the words Farming Meets Code" width="100%">
 </p>
 
-<h1 align="center">Hi, I'm Mpho Sekati 👋</h1>
+<h1 align="center">Hi, I'm Mpho 👋</h1>
 
-<p align="center">
-  I build practical software for real-world problems — from agriculture and local commerce to AI-powered tools and scientific computing.
-</p>
+<p align="center"><strong>Farmer at heart. Builder by curiosity. Always experimenting with code.</strong></p>
 
-<p align="center">
-  <a href="https://github.com/mpho0sekati">GitHub</a>
-</p>
+I didn't come to technology just to write code for code's sake. I keep coming back to the same question: **could a thoughtful tool make everyday work a little easier for farmers and the people around them?**
 
----
+That question is where farming and software meet for me. I like trying ideas, learning by building, and seeing what happens when practical problems get a bit of imagination—and a few lines of code.
 
-## What I'm building
+## 🌱 What I'm exploring
 
-I enjoy turning ambitious ideas into useful products. Much of my work explores how technology can make essential services and complex tools more accessible, especially in African communities.
+- **Tools for farming:** digital assistants, soil insights, and better ways to plan and make decisions.
+- **AI with a purpose:** using it as a practical helper, not just a flashy demo.
+- **Local food and commerce:** making it easier for people to connect with fresh produce and the people who grow and sell it.
 
-### 🌱 Agriculture & local commerce
-- **[Mdeko](https://github.com/mpho0sekati/mdeko-momo-hackathon-2026)** — a MoMo Mini App concept connecting shoppers with nearby fresh-produce traders, with ordering, payments, and local delivery.
-- **[Abuti Spinach](https://github.com/mpho0sekati/Abuti-pinach)** — an ongoing exploration of practical digital tools for small-scale farming.
+## 🚜 Projects from the farm-to-code journey
+
+- **[Abuti Spinach](https://github.com/mpho0sekati/Abuti-pinach)** — exploring practical digital tools for small-scale farming.
 - **[Farmer Agent](https://github.com/mpho0sekati/Farmer-Agent)** — an AI-assisted farming project for research, planting calendars, and crop itineraries.
+- **[Soil Analysis App](https://github.com/mpho0sekati/soil-analysis-app)** — experimenting with soil analysis and machine-learning-assisted crop insights.
+- **[Mdeko](https://github.com/mpho0sekati/mdeko-momo-hackathon-2026)** — a fresh-produce marketplace concept connecting shoppers with nearby traders.
+- **[BootLoops Blue](https://github.com/mpho0sekati/bootloops-blue)** — a different kind of fieldwork: high-precision tools for physics and quantitative science.
 
-### 🧪 AI, tools & scientific computing
-- **[BootLoops Blue](https://github.com/mpho0sekati/bootloops-blue)** — exact and high-precision tools for physics and quantitative science, designed to be driven by LLM agents.
-- **[Odysseus](https://github.com/mpho0sekati/odysseus)** — a self-hosted AI workspace.
-- **[Soil Analysis App](https://github.com/mpho0sekati/soil-analysis-app)** — soil analysis and machine-learning-assisted insights for crop management.
+## 🧑🏽‍🌾 A little about how I build
 
----
+I learn by making things. Some experiments grow into bigger ideas; others teach me what to try next. Either way, I want the work to stay grounded in real needs, useful to real people, and fun enough that I keep asking, “what if?”
 
-## How I like to work
+**Things you'll find me exploring:** Python · TypeScript · AI · agriculture · product ideas · the occasional unexpected rabbit hole
 
-- Start with a concrete problem and the people experiencing it.
-- Build useful systems, not just demos.
-- Explore where AI, data, and thoughtful software design can make a real difference.
+## 🤝 Say hello
 
-**Languages across my public projects:** Python · TypeScript · Go · Zig · C#
+I'm always glad to connect with people who care about farming, useful technology, or building something from a curious little idea.
 
----
+[Find me on GitHub](https://github.com/mpho0sekati)
 
-## Find me
-
-- [GitHub](https://github.com/mpho0sekati) — projects, experiments, and what I'm working on
-
-<p align="center"><i>Building useful things, one iteration at a time.</i></p>
+<p align="center"><em>Plant an idea. Write some code. See what grows. 🌱</em></p>
